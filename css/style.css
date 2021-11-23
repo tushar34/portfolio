@@ -147,7 +147,7 @@ img {
   padding-right: 80px;
 }
 #section1 {
-  background-image: url("/Images/bg.png");
+  background-image: url("../Images/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 95vh;
@@ -283,7 +283,7 @@ img {
 }
 
 .feature_section {
-  background-image: url("/Images/feature-bg.png");
+  background-image: url("../Images/feature-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 800px;
