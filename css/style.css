@@ -430,7 +430,6 @@ img {
 .footer_text {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   justify-content: space-between;
 }
 .ff {
@@ -485,10 +484,8 @@ img {
 }
 
 .f1 {
-  /* text-align: left; */
   color: white;
 }
 .f2 {
-  /* text-align: right; */
   color: white;
 }
