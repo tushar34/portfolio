@@ -1,0 +1,146 @@
+@media (max-width: 1399.98px) {
+}
+@media (max-width: 1199.98px) {
+}
+@media (max-width: 991.98px) {
+  .container {
+    max-width: 960px;
+  }
+  .header_ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 65px;
+    right: 0;
+    width: 100%;
+    height: 200px;
+    background: #ef2954;
+    text-align: center;
+    display: none;
+  }
+  .bar_icon {
+    display: block;
+  }
+  .banner_div_left {
+    width: 100%;
+    text-align: center;
+  }
+  .banner_div_left h2 {
+    padding: 0 100px;
+  }
+  .banner_div_left p {
+    padding: 0 100px;
+    color: black;
+  }
+  .banner_div_right {
+    width: 100%;
+  }
+  .banner_section {
+    flex-direction: column-reverse;
+  }
+  .card_section {
+  }
+  .card_info {
+    width: 100%;
+    margin: 10px 20px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .container {
+    max-width: 720px;
+  }
+  .phone_image {
+    transform: rotate(0deg);
+  }
+  .banner_div_right img {
+    animation: float 3s linear infinite;
+  }
+  @keyframes float {
+    from {
+      transform: rotate(0deg) translate(0, 0);
+    }
+    25% {
+      transform: rotate(0deg) translate(0px, 10px);
+    }
+    50% {
+      transform: rotate(0deg) translate(0px, 20px);
+    }
+    75% {
+      transform: rotate(0deg) translate(0px, 10px);
+    }
+    to {
+      transform: rotate(0deg) translate(0, 0);
+    }
+  }
+
+  .detail {
+    width: 100%;
+    padding: 20px;
+  }
+  .title_image {
+    width: 100%;
+    padding-left: 0;
+    text-align: center;
+  }
+  .title {
+  }
+  .info {
+    margin-top: -265px;
+  }
+  .info_1 {
+    padding-left: 0;
+    justify-content: space-around;
+  }
+  .i_1 {
+    width: 35%;
+    margin-right: 0;
+  }
+  .i_2 {
+    width: 35%;
+    margin-right: 0;
+  }
+  .i_3 {
+    width: 35%;
+    margin-right: 0;
+  }
+  .title_image img {
+    max-width: 40%;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .container {
+    max-width: 95%;
+  }
+  .info_1 {
+    padding: 0;
+  }
+  .i_1 {
+    width: 100%;
+    margin: 20px;
+  }
+  .i_2 {
+    width: 100%;
+    margin: 20px;
+  }
+  .i_3 {
+    width: 100%;
+    margin: 20px;
+  }
+  .banner_heading {
+    font-size: 2rem;
+  }
+  .banner_div_left p {
+    padding: 0 10px;
+  }
+  .banner_div_left h2 {
+    padding: 0 10px;
+  }
+  .phone_image {
+    height: 300px;
+  }
+  .title_image div p {
+    padding: 0 10px;
+  }
+}
